@@ -1,0 +1,18 @@
+2025-06-29T16:09:52.012Z
+INIT_START Runtime Version: python:3.13.v48 Runtime Version ARN: arn:aws:lambda:eu-north-1::runtime:f10b100a00b6c2fc7052100b08a13d8c6dc4176c7c01a522d2fb9c948bab31f0
+2025-06-29T16:09:52.357Z
+START RequestId: 7761967b-c8ed-4876-84aa-ccbb68231e77 Version: $LATEST
+2025-06-29T16:09:52.357Z
+Lambda triggered
+2025-06-29T16:09:55.754Z
+Bucket: csv-input-bucket-raj
+2025-06-29T16:09:55.754Z
+Key: sample1.csv
+2025-06-29T16:09:55.754Z
+Starting Glue job...
+2025-06-29T16:09:56.077Z
+Error: An error occurred (EntityNotFoundException) when calling the StartJobRun operation: Failed to start job run due to missing metadata.
+2025-06-29T16:09:56.395Z
+END RequestId: 7761967b-c8ed-4876-84aa-ccbb68231e77
+2025-06-29T16:09:56.395Z
+REPORT RequestId: 7761967b-c8ed-4876-84aa-ccbb68231e77 Duration: 4037.80 ms Billed Duration: 4038 ms Memory Size: 128 MB Max Memory 
